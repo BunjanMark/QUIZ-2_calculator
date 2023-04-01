@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+	background-image: radial-gradient(
+		rgb(180, 255, 180),
+		rgb(255, 255, 220)
+	);
+	display: inline-block;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main {
+	display: inline-block;
+	height: 650px;
+	width: 100%;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0px;
+}
+
+main > .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+	align-items: center;
+	text-align: center;
+	border: 1px solid black;
+	margin: auto;
+	padding: 20px;
+	background-image: linear-gradient(
+		rgb(252, 159, 159),
+		rgb(146, 215, 247)
+	);
+	width: 400px;
+	border-radius: 15px;
+}
+.container > input {
+	text-align: center;
+	width: 50%;
+	border-radius: 8px;
+}
+
+main > .answer-box {
+	display: inline-block;
+	width: 100%;
+	flex-direction: row;
+	position: absolute;
+	margin-left: 0px;
+}
+#result {
+	padding: 10px;
+}
+#btn {
+	color: rgba(20, 18, 18, 0.815);
+	font-size: 19px;
+	display: inline-block;
+}
+
+#btn:hover {
+	border: 2px solid red;
+	background-color: aquamarine;
+}
+
+footer {
+	background-color: rgb(59, 58, 58);
+	display: inline-block;
+	width: 100%;
+	display: flex;
+}
+footer p {
+	color: white;
+	margin: 10px auto;
+}
